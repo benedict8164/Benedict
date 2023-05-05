@@ -189,6 +189,7 @@ body{
         color: #22223b;
         z-index: 1;
     }
+    
    .navigation-bar .fa-sharp{
     display: block;
     margin-top: 10px;
@@ -275,7 +276,7 @@ body{
         padding:0px 20px 0px 20px;
     }
     .container-home .content-text2{
-        background-color: #22223b;
+        background-color: #c9ada7;
         width: 100%;
         height: 50%;
         border-radius: 50%;
@@ -292,6 +293,7 @@ body{
         height: 100vh;
         background-color: #c9ada7;
         z-index: 2;  
+        display: none;
     }
     .container-home .content-text2 .content-text-child{
         width: 100%;
@@ -301,8 +303,8 @@ body{
         
     }
     .container-home .content-text2 .content-text-child img{
-        width: 97%;
-        height: 97%;
+        width: 100%;
+        height: 100%;
         background-color:#c9ada7;
         z-index: 3;
         transition: 0.5s;

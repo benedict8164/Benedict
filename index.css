@@ -140,6 +140,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-size: 70px;
+    margin-top: 0px;
+   
 }
 .container-home .content-text1 h2{
     font-size: 23px;
@@ -414,16 +416,24 @@ body{
         height: 50vh; 
     }
     .container-home .content-text1 h1{
-        margin-top: 1%;
+        margin-top: 5px;
         font-size: 50px;
         line-height: 90%;
     }
     .container-home .content-text1 .h2label {
         line-height: 100%;
-        margin-top: 1%;
+        margin-top: 5px;
     }
     .container-home .content-text1 h2{
+      
         font-size: 22px;
+        
+    }
+    .container-home .content-text1 .bar-design{
+        margin-top: 18px;
+    }
+    .container-home .content-text1 .icon{
+        margin-top: 18px;
     }
     .icon .fa-brands{
         font-size: 35px;

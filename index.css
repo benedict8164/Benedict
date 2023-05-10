@@ -188,18 +188,20 @@ body{
 }
 
 .container-home .content-text1 .icon .cv:hover{
-   
+    cursor: pointer;
     background-color: #c9ada7;
-    color: #22223b;
-    box-shadow: 1px 1px 1px 0px #22223b;
+    color: black;
+    text-shadow: 0 0 8px #f2e9e4, 0 0 8px #f2e9e4;
 }
 .icon .fa-brands{
     font-size: 36px;
     width: 7%;
     transition: 0.5s;
+    color: #22223b;
 }
 .icon .fa-brands:hover{
-   color: #4a4e69;
+   color: #c9ada7;
+   cursor: pointer;
 }
 /* navigation bar mobile */
 
@@ -412,9 +414,17 @@ body{
         height: 50vh; 
     }
     .container-home .content-text1 h1{
+        margin-top: 1%;
         font-size: 50px;
+        line-height: 90%;
     }
-    
+    .container-home .content-text1 .h2label {
+        line-height: 100%;
+        margin-top: 1%;
+    }
+    .container-home .content-text1 h2{
+        font-size: 22px;
+    }
     .icon .fa-brands{
         font-size: 35px;
         width: 15%;

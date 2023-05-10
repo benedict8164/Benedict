@@ -205,6 +205,98 @@ body{
    color: #c9ada7;
    cursor: pointer;
 }
+
+/* what i do  */
+
+.container-whatIdo{
+    background-color: #c9ada7;
+    width: 100%;
+    height: 100vh;
+}
+.container-whatIdo1{
+    padding:15px 100px 15px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #c9ada7;
+
+}
+.container-whatIdo1 .child{
+    width: 100%;
+    height: 60vh;
+    background-color: #f2e9e4;
+    margin-right: 20px;
+    border-radius: 2%;
+}
+.container-whatIdo .container-whatIdo1 .web-design h1{
+   
+    padding: 80px 30px 0px 30px;
+}
+.container-whatIdo .container-whatIdo1 .photo-editor h1{
+   
+    padding: 80px 30px 0px 30px;
+}
+.container-whatIdo .container-whatIdo1 .desktop-support h1{
+   
+    padding: 80px 30px 0px 30px;
+}
+
+/* bar div design */
+
+ #bar-design{
+    display: flex;
+    padding: 10px 0px 0px 30px;
+ }
+ #design1{
+     background-color: #22223b;
+     width: 25%;
+     height: 7px;
+     border-radius: 100px;
+ }
+ #design2{
+     background-color: #c9ada7;
+     width: 5%;
+     height: 7px;
+     border-radius: 100px;
+     margin-left: 10px;
+     
+ }
+.container-whatIdo1 .web-design p{
+    font-size: 15px;
+    padding: 30px 30px 30px 30px;
+    line-height: 25px;
+}
+.container-whatIdo1 .photo-editor p{
+    font-size: 15px;
+    padding: 30px 30px 30px 30px;
+    line-height: 25px;
+}
+.container-whatIdo1 .desktop-support p{
+    font-size: 15px;
+    padding: 30px 30px 30px 30px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* code for smoothscroll effect */
+.hidden{
+    opacity: 0;
+    filter: blur(20px);
+    transform: translateX(-100%);
+    transition: all 2.5s;
+
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+
+}
+
+
+
 /* navigation bar mobile */
 
 @media screen and (max-width:1020px){
@@ -381,15 +473,16 @@ body{
     .navigation-bar{
         padding:15px 20px 15px 20px;
         z-index: 4;
+        
     }
     .container-home{
-        padding:20px 20px 0px 20px;
-       
+        padding:20px 0px 0px 20px;  
     }
     .container-home .content-text2{
         background-color: #f2e9e4;
         width: 100%;
         height: 50vh;
+       
     }
     .container-home .content-text2::before{
         display: none;
@@ -398,6 +491,7 @@ body{
         width: 25em;
         height: 25em;
         background-color: #f2e9e4;
+      
     }
     .container-home .content-text2 .content-text-child img{
         width: 80%;
@@ -405,6 +499,7 @@ body{
         background-color:#c9ada7;
         z-index: 3;
         transition: 0.5s;
+       
     }
     .container-home .content-text2 .content-text-child img:hover{
         background-color: #4a4e69;
@@ -423,10 +518,11 @@ body{
     .container-home .content-text1 .h2label {
         line-height: 100%;
         margin-top: 5px;
+        
     }
     .container-home .content-text1 h2{
       
-        font-size: 22px;
+        font-size: 23px;
         
     }
     .container-home .content-text1 .bar-design{
@@ -453,5 +549,83 @@ body{
         font-weight: normal;
         transition: 0.5s;
     }
+
+    /* this code is keyframe of what i do container */
+
+    .container-whatIdo{
+        
+        width: 100%;
+        height: auto; 
+        
+        
+    }
+    .container-whatIdo1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding:30px 10px 0px 30px;
+      
+       
+    }
+    .container-whatIdo1 .child{
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        margin-bottom: 5%;
+        
+        
+    }
+    .container-whatIdo .container-whatIdo1 .web-design h1{
+   
+        padding: 50px 0px 0px 30px;
+    }
+    .container-whatIdo .container-whatIdo1 .photo-editor h1{
+       
+        padding: 50px 0px 0px 30px;
+    }
+    .container-whatIdo .container-whatIdo1 .desktop-support h1{
+       
+        padding: 50px 0px 0px 30px;
+    }
+    #bar-design{
+        display: flex;
+        padding: 10px 0px 0px 30px;
+     }
+     #design1{
+         background-color: #22223b;
+         width: 25%;
+         height: 7px;
+         border-radius: 100px;
+     }
+     #design2{
+         background-color: #c9ada7;
+         width: 5%;
+         height: 7px;
+         border-radius: 100px;
+         margin-left: 10px;
+         
+     }
+     .container-whatIdo1 .web-design p{
+       
+        padding: 30px 30px 30px 30px;
+        line-height: 25px;
+    }
+    .container-whatIdo1 .photo-editor p{
+       
+        padding: 30px 30px 30px 30px;
+        line-height: 25px;
+    }
+    .container-whatIdo1 .desktop-support p{
+       
+        padding: 30px 30px 30px 30px;
+        line-height: 25px;
+       
+    }
+    
     
 }
+
+
+
+

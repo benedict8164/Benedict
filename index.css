@@ -22,7 +22,7 @@ body{
     font-weight: bold;
 }
 .navigation-bar{
-   background-color: #f2e9e4;
+    background-color: #f2e9e4;
     position: fixed;
     display: flex;
     justify-content:space-between;
@@ -323,6 +323,19 @@ body{
     transform: translateY(0);
 
 }
+.hidden2{
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(30%);
+    transition: all 1.0s;
+
+}
+.show2{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+
+}
 /* .animate:nth-child(2){
     transition-delay: 1s;
 }
@@ -399,7 +412,7 @@ body{
  }
  #design1-about{
      background-color: #22223b;
-     width: 15%;
+     width: 16%;
      height: 7px;
      border-radius: 100px;
  }
@@ -412,7 +425,164 @@ body{
      
  }
 
+ /* desktopcode for testimonials */
+.container-testimonials{
+    width: 100%;
+    height: 100vh;
+    background-color: #c9ada7;
+    
+}
+.container-testimonials h1{
+    padding-top:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
 
+.bar-designCT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+}
+.design1CT{
+    display: flex; 
+    background-color: #22223b;
+    width: 7%;
+    height: 7px;
+    border-radius: 100px;
+}
+.design2CT{
+    background-color: #f2e9e4;
+     width: 2%;
+     height: 7px;
+     border-radius: 100px;
+     margin-left: 10px;
+}
+.container-testimonials .container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:0px 100px 0px 70px; 
+}
+.container div{
+    width: 30%;
+    height: 60vh;
+    background-color: #f2e9e4;
+    border-radius: 2%;
+   
+}
+/* person1 */
+.person1{
+    display: flex;
+    flex-direction: column;
+}
+.person1 .person1-C1{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    padding: 30px;
+   
+   
+}
+.person1 img{
+    width: 28%;
+    height: auto;
+    border-radius: 50%;
+   
+}
+.person1-C1 .name{
+    padding-top: 10px;
+    padding-left: 20px;
+    height: auto;
+    width: 90%;
+}
+.name h3{
+    opacity: 60%;
+}
+.name i{
+    padding-top: 5px;
+}
+.person1 p{
+    font-size: 15px;
+    padding: 0px 30px 0px 30px;
+}
+/* person2 */
+.person2{
+    display: flex;
+    flex-direction: column;
+}
+.person2 .person2-C2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    padding: 30px;
+   
+   
+}
+.person2 img{
+    width: 28%;
+    height: auto;
+    border-radius: 50%;
+   
+}
+.person2-C2 .name{
+    padding-top: 10px;
+    padding-left: 20px;
+    height: auto;
+    width: 100%;
+}
+.name h3{
+    opacity: 60%;
+}
+.name i{
+    padding-top: 5px;
+}
+.person2 p{
+    font-size: 15px;
+    padding: 0px 30px 0px 30px;
+}
+
+/* person3 */
+.person3{
+    display: flex;
+    flex-direction: column;
+}
+.person3 .person3-C3{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    padding: 30px;
+   
+   
+}
+.person3 img{
+    width: 28%;
+    height: auto;
+    border-radius: 50%;
+   
+}
+.person3-C3 .name{
+    padding-top: 10px;
+    padding-left: 20px;
+    height: auto;
+    width: 90%;
+}
+.name h3{
+    opacity: 60%;
+}
+.name i{
+    padding-top: 5px;
+}
+.person3 p{
+    font-size: 15px;
+    padding: 0px 30px 0px 30px;
+}
 
 
 
@@ -590,12 +760,13 @@ body{
  /* this media query is for mobile web */
 @media screen and (max-width:360px ) {
     .navigation-bar{
+       
         padding:15px 20px 15px 20px;
         z-index: 4;
         
     }
     .container-home{
-        padding:20px 20px 0px 20px;  
+        padding:15px 20px 15px 20px;
     }
     .container-home .container-homeC1{
       
@@ -690,7 +861,7 @@ body{
         flex-direction: column;
         width: 100%;
         height: auto;
-        padding:30px 10px 0px 30px;
+        padding:30px 5px 0px 35px;
       
        
     }
@@ -765,7 +936,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding:30px 20px 20px 20px;
+        padding:15px 20px 15px 20px;
         width: 100%;
         height: auto;
         margin: 0px;
@@ -796,6 +967,108 @@ body{
         background-color: #f2e9e4;
         border-radius: 2%;
 
+    }
+    #design1-about{
+        width: 25%;
+    }
+
+    /*mediaquery testimonials */
+
+ 
+
+    .container-testimonials{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+       
+    }
+    .container-testimonials1{
+        width: 100%;
+      
+    }
+  
+    .container-testimonials h1{
+        padding-top: 50px;
+    }
+    .design1CT{
+        width: 20%;
+       
+    }
+    .design2CT{
+        width: 6%;
+    }
+    .container-testimonials .container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding:30px 20px 20px 20px;
+        
+    }
+    .container div{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .person1{
+        width: 100%;
+        
+    }
+    .person1 .person1-C1{
+        width: 100%;
+        height: auto;
+        padding: 30px 0px 0px 30px;
+ 
+    }
+    .person1 img{
+        width: 28%;
+        height: 28%;
+    }
+    .person1 p{
+        padding: 0px 30px 30px 30px;
+       
+    }
+
+    /* person2 */
+    
+    .person2{
+        width: 100%;
+        
+    }
+    .person2 .person2-C2{
+        width: 100%;
+        height: auto;
+        padding: 30px 0px 0px 30px;
+ 
+    }
+    .person2 img{
+        width: 28%;
+        height: 28%;
+    }
+    .person2 p{
+        padding: 0px 30px 30px 30px;
+       
+    }
+
+    /* person3 */
+
+    .person3{
+        width: 100%;
+        
+    }
+    .person3 .person3-C3{
+        width: 100%;
+        height: auto;
+        padding: 30px 0px 0px 30px;
+ 
+    }
+    .person3 img{
+        width: 28%;
+        height: 28%;
+    }
+    .person3 p{
+        padding: 0px 30px 30px 30px;
+       
     }
     
     

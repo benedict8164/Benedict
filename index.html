@@ -28,13 +28,13 @@
 <!-- navigation html code -->
     <nav class="navigation-bar">
             <div class="logo">
-                <p>BS</p>
+                <a href="#home">BS</a>
             </div>
             <ul class="list-item-nav">
-                <li><a href="#">WHAT I DO</a></li>
-                <li><a href="#">ABOUT ME</a></li>
-                <li><a href="#">TESTIMONIALS</a></li>
-                <li><a href="#">MY SKILLS</a></li>
+                <li><a href="#what-i-do">WHAT I DO</a></li>
+                <li><a href="#about-me">ABOUT ME</a></li>
+                <li><a href="#testimonials">TESTIMONIALS</a></li>
+                <li><a href="#skills">MY SKILLS</a></li>
             </ul>
           
             <i class="fa-sharp fa-solid fa-bars fa-lg"></i>
@@ -43,7 +43,7 @@
     </nav>
 <!-- This code is HOME of the page -->
 
-    <div class="container-home">
+    <div class="container-home" id="home">
         <div class="container-homeC1 hidden">
             <div class="content-text2">
                 <div class="content-text-child">
@@ -65,11 +65,13 @@
                     <div class="design2"></div>
                 </div>
                 <div class="icon">
-                    <button class="cv"><i class="fa-solid fa-download"></i>
+                    <button class="cv" id="cvButton"><i class="fa-solid fa-download"></i>
                     <h3></i>Download CV</h3></button>
-                   <i class="fa-brands fa-facebook"></i>
-                   <i class="fa-brands fa-square-instagram"></i>
-                   <i class="fa-brands fa-square-twitter"></i>
+                    <a href="https://web.facebook.com/benedict.solano.7/"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/solanobenedict/">    <i class="fa-brands fa-square-instagram"></i></i></a>
+                    <a href="https://twitter.com/bensolano11">   <i class="fa-brands fa-square-twitter"></i></a> 
+                
+                 
                 </div>
             </div>
           
@@ -77,7 +79,7 @@
 
 <!-- what i do -->
 
-    <div class="container-whatIdo ">
+    <div class="container-whatIdo" id="what-i-do">
         <div class="container-whatIdo1">
             <div class="web-design child">
                 <h1 class="animate hidden">
@@ -88,12 +90,12 @@
                     <div class="design2" id="design2"> </div>
                 </div>
                 <p class="animate hidden">
-                    I love creating web design using HTML, CSS and bootstrap. I also exploring javascript program to expand my design and creativity in web developmet.
+                    I can create web design using HTML, CSS and bootstrap. I also exploring javascript program to expand my design and creativity in front-end web developmet.
                 </p>
                 <button class="more">
                 <h3></i>View More</h3></button>
                 </div>
-           <div class="photo-editor child">
+                <div class="photo-editor child">
                 <h1 class="animate hidden">
                    Photo Editor
                 </h1>
@@ -102,7 +104,7 @@
                     <div class="design2" id="design2"> </div>
                 </div>
                 <p class="animate hidden"> 
-                    I'm also efficient in photo editing, Photo manipulation using adobe photshop and adobe Illustrator.
+                    I am into photo Editor, Photo manipulation and color improvment by the use of adobe photshop and adobe Illustrator.
                 </p>
                 <button class="more">
                     <h3></i>View More</h3></button>
@@ -116,7 +118,7 @@
                     <div class="design2" id="design2"> </div>
                 </div>
                 <p class="animate hidden">
-                    After we finish our OJT, we render also a training in our computer laboratory which is desktop support. This training include laptop, desktop formating, installing drivers, software and printer troubleshooting.
+                    I also have a knowledge in desktop support. Like desktop, laptop, troubleshot and Windows formatting and installation.
                 </p>
                 <button class="more">
                     <h3></i>View More</h3></button>
@@ -127,7 +129,7 @@
 
 
 <!-- about me -->
-    <div class="container-aboutMe">
+    <div class="container-aboutMe" id="about-me">
         
         <div class="container-aboutMe1 child">
             <div class="parent-picture">
@@ -146,10 +148,15 @@
                 <div class="text">
                     <h1 class="hidden1">Benedict J. Solano</h1>
                     <p class="hidden1">
-                        Hi, I am Graduated of Bachelor of Science in Information Technology. 
-                        Currently Live in Maja Village, Brgy Dila Santa Rosa, but i was born at Mindoro Province.
-                        The reason why I’m here at Laguna is to maximize my experience and improve all skills i learned in
-                        the field of Information Technology, and help my family in financial.
+                        Hi, I Graduated with a Bachelor of Science in Information Technology.
+                         I'm focusing on web design and front-end development through
+                          the use of  HTML, CSS, bootstrap, and  Basic JavaScript. My 
+                          journey starts as a web developer in my first year of college
+                           but after I graduate I try another field. However, last year 
+                           2022 I decided to continue my career as a web designer and 
+                           front-end developer and now I continue to pursue my knowledge
+                            and try to improve more by creating personal projects to
+                             enhance all my skills.
                     </p>
                  </div>
                </div>
@@ -162,7 +169,7 @@
 
 <!-- testimonials -->
 
-   <div class="container-testimonials">
+   <div class="container-testimonials" id="testimonials">
         <div class="container-testimonials1">
             <h1>What Others Say To Me</h1>
             <div class="bar-designCT" id="bar-designCT">
@@ -254,7 +261,7 @@
     
 <!-- My techstuck i know -->
 
-  <div class="container-mySkills">
+  <div class="container-mySkills" id="skills">
         <div class="container-mySkills0">
                 <h1 class="hidden">Tech Stock and tools i know</h1>
                 <div class="bar-design" id="bar-design-skills">

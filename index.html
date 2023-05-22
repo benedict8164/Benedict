@@ -20,8 +20,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Montserrat:wght@600&family=Rokkitt:wght@500&family=Russo+One&family=Ubuntu&display=swap" rel="stylesheet">
     <!-- bootstrap -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-    </head>
+     <!-- iconify-icon -->
+     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+</head>
 <body>
+
+<!-- navigation html code -->
     <nav class="navigation-bar">
             <div class="logo">
                 <p>BS</p>
@@ -37,10 +41,10 @@
             
           
     </nav>
-    
-    <!-- This code is HOME of the page -->
+<!-- This code is HOME of the page -->
+
     <div class="container-home">
-        <div class="container-homeC1">
+        <div class="container-homeC1 hidden">
             <div class="content-text2">
                 <div class="content-text-child">
                     <img src="./images/myavatar.png" class="myavatar">
@@ -52,9 +56,9 @@
             <!-- <div class="border-style"></div> -->
             <div class="content-text1">
              
-                <h2 class="hidden1">Hi I'm</h2>
-                <h1 class="hidden1">Benedict Solano</h1>
-                <h2 class="h2label hidden1">I focusing on web design and responsive front-end Development.</h2>
+                <h2 class="hidden2">Hi I'm</h2>
+                <h1 class="hidden2">Benedict Solano</h1>
+                <h2 class="h2label hidden2">I focusing on web design and responsive front-end Development.</h2>
                 
                 <div class="bar-design">
                     <div class="design1"></div>
@@ -119,7 +123,9 @@
            </div>
         </div>
        
-    </div>
+    </div> 
+
+
 <!-- about me -->
     <div class="container-aboutMe">
         
@@ -154,11 +160,9 @@
     </div>
 
 
-    <!-- testimonials -->
+<!-- testimonials -->
 
-
-   
-    <div class="container-testimonials">
+   <div class="container-testimonials">
         <div class="container-testimonials1">
             <h1>What Others Say To Me</h1>
             <div class="bar-designCT" id="bar-designCT">
@@ -170,7 +174,7 @@
                     <div class="person1-C1">
                         <img src="./images/noem.jpg" alt="">
                         <div class="name">
-                            <h2 class="hidden2"> 
+                            <h2 class="noem hidden2"> 
                                 Noemielyn Fallan
                             </h2>
                             <h3 class="hidden2">
@@ -246,16 +250,64 @@
             
             </div>
         </div>
-    </div>
+    </div> 
     
-    <!-- <div class="container-mySkills">
+<!-- My techstuck i know -->
 
-    </div>
+  <div class="container-mySkills">
+        <div class="container-mySkills0">
+                <h1 class="hidden">Tech Stock and tools i know</h1>
+                <div class="bar-design" id="bar-design-skills">
+                    <div class="design1" id="design1-skills"></div>
+                    <div class="design2" id="design2-skills"> </div>
+                </div>
+            <div class="container-mySkills1">
+                <div class="images hidden">
+                    <img src="./images/dev.svg" alt="">
+                </div>
+                <div class="skills hidden2">
+                    <div class="expert">
+                        <h1>Expertise</h1>
+                        <iconify-icon icon="logos:html-5"></iconify-icon>
+                        <iconify-icon icon="logos:css-3"></iconify-icon>
+                        <iconify-icon icon="logos:adobe-photoshop" class="expertps"></iconify-icon>
+                    </div>
+                    <div class="basic">
+                        <h1>Basic knowledge</h1>
+                        <iconify-icon icon="logos:javascript"></iconify-icon>
+                        <iconify-icon icon="logos:bootstrap"></iconify-icon>
+                        <iconify-icon icon="skill-icons:tailwindcss-dark"></iconify-icon>
+                        <iconify-icon icon="skill-icons:figma-dark"></iconify-icon>
+                        <iconify-icon icon="logos:adobe-illustrator"></iconify-icon>
+                        <iconify-icon icon="vscode-icons:file-type-git"></iconify-icon>
+                    </div>
+                    <div class="others">
+                        <h1>Others</h1>
+                        <iconify-icon icon="icon-park:github"></iconify-icon>
+                        <iconify-icon icon="skill-icons:vscode-dark"></iconify-icon>
+                        <iconify-icon icon="skill-icons:sketchup-light"></iconify-icon>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div> 
     
     <div class="container-footer">
-
-    </div> -->
+        <div class="container-footer1">
+            <h1 class="ben">Benedict J. Solano Portfolio |</h1>
+            <h1 class="allreserve"> All rights Reserved</h1>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+            </div>
+        </div>
+       
+    </div>
 <script src="index.js"></script>
+  
 
 </body>
 </html>

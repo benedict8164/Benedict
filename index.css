@@ -7,6 +7,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+  
    
     
 }
@@ -72,6 +73,7 @@ body{
     padding:15px 70px 15px 70px;
     width: 100%;
     height: 100vh;
+ 
 }
 .container-home .container-homeC1{
     margin-top: 0px;
@@ -302,6 +304,7 @@ body{
     filter: blur(10px);
     transform: translateX(-30%);
     transition: all 1.0s;
+    overflow: hidden;
 
 }
 .show{
@@ -315,6 +318,7 @@ body{
     filter: blur(10px);
     transform: translateY(40%);
     transition: all 1.0s;
+    overflow: hidden;
 
 }
 .show1{
@@ -328,6 +332,7 @@ body{
     filter: blur(10px);
     transform: translateX(30%);
     transition: all 1.0s;
+    overflow: hidden;
 
 }
 .show2{
@@ -406,6 +411,7 @@ body{
 }
 
 /* bar design about */
+
 #bar-design-about{
     display: flex;
     padding: 10px 0px 0px 0px;
@@ -426,10 +432,12 @@ body{
  }
 
  /* desktopcode for testimonials */
+
 .container-testimonials{
     width: 100%;
     height: 100vh;
     background-color: #c9ada7;
+    overflow: hidden;
     
 }
 .container-testimonials h1{
@@ -584,6 +592,120 @@ body{
     padding: 0px 30px 0px 30px;
 }
 
+
+/* techstuck i know */
+.container-mySkills{
+    width: 100%;
+    height: auto;
+    background-color: #f2e9e4;
+}
+.container-mySkills0 h1{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px 20px 20px;
+    
+     
+}
+/* bar design */
+#bar-design-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+ }
+ #design1-skills{
+     background-color: #22223b;
+     width: 7%;
+     height: 7px;
+     border-radius: 100px;
+ }
+ #design2-skills{
+     background-color: #c9ada7;
+     width: 2%;
+     height: 7px;
+     border-radius: 100px;
+     margin-left: 10px;
+     
+ }
+.container-mySkills1{
+    display: flex;
+    width: 100%;
+   
+}
+.container-mySkills1 .images{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+ 
+  
+  
+}
+.container-mySkills1 .images img{
+    width: 100%;
+    height: 70%;
+    padding-top: 30px;
+    
+  
+    
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+.skills h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+   
+}
+.expert iconify-icon{
+    font-size: 50px;
+    padding-right: 20px;
+}
+.expert .expertps{
+    font-size: 40px;
+}
+.basic h1{
+    padding-top: 30px;
+}
+.basic iconify-icon{
+    font-size: 40px;
+    padding-right: 20px;
+}
+.others h1{
+    padding-top: 30px;
+}
+.others iconify-icon{
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+.container-footer1{
+    width: 100%;
+    height: 40vh;
+    background-color: #22223b;
+    color: #f2e9e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.allreserve{
+  opacity: 90%;
+}
+.container-footer i{
+    font-size: 30px;
+    width: 40px;
+    transition: 0.5s;
+    color: #f2e9e4;
+    padding-top: 10px;
+}
 
 
 /* navigation bar mobile */
@@ -759,6 +881,7 @@ body{
 }
  /* this media query is for mobile web */
 @media screen and (max-width:360px ) {
+
     .navigation-bar{
        
         padding:15px 20px 15px 20px;
@@ -767,6 +890,8 @@ body{
     }
     .container-home{
         padding:15px 20px 15px 20px;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
     .container-home .container-homeC1{
       
@@ -853,6 +978,9 @@ body{
         
         width: 100%;
         height: auto; 
+        overflow-x: hidden;
+        overflow-y: hidden;
+       
         
         
     }
@@ -861,7 +989,7 @@ body{
         flex-direction: column;
         width: 100%;
         height: auto;
-        padding:30px 5px 0px 35px;
+        padding:30px 5px 10px 35px;
       
        
     }
@@ -876,14 +1004,17 @@ body{
     .container-whatIdo .container-whatIdo1 .web-design h1{
    
         padding: 50px 0px 0px 30px;
+    
     }
     .container-whatIdo .container-whatIdo1 .photo-editor h1{
        
         padding: 50px 0px 0px 30px;
+       
     }
     .container-whatIdo .container-whatIdo1 .desktop-support h1{
        
         padding: 50px 0px 0px 30px;
+      
     }
     #bar-design{
         display: flex;
@@ -907,17 +1038,23 @@ body{
        
         padding: 30px 30px 30px 30px;
         line-height: 25px;
+       
     }
     .container-whatIdo1 .photo-editor p{
        
         padding: 30px 30px 30px 30px;
         line-height: 25px;
+      
     }
     .container-whatIdo1 .desktop-support p{
        
         padding: 30px 30px 30px 30px;
         line-height: 25px;
+     
        
+    }
+    .more{
+        margin-bottom: 30px;
     }
 
     /* this css code is for about */
@@ -936,19 +1073,19 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding:15px 20px 15px 20px;
+        padding:15px 20px 30px 20px;
         width: 100%;
         height: auto;
         margin: 0px;
-     
       
+
     }
     .container-aboutMe1 .parent-picture {
         width: 100%;
         height: auto;
         padding-bottom: 10px;
         margin: 0px;
-       
+      
        
     }
     .container-aboutMe1 .parent-picture img{
@@ -956,18 +1093,20 @@ body{
         height: 40vh;
         padding: 0px;
         margin: 0px;
+        
     }
 
     .container-aboutMe1 .about-me{
         width: 100%;
         height: 50%;
         margin: 0px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
         border-radius: 0;
         background-color: #f2e9e4;
         border-radius: 2%;
 
     }
+   
     #design1-about{
         width: 25%;
     }
@@ -979,7 +1118,7 @@ body{
     .container-testimonials{
         width: 100%;
         height: auto;
-        overflow: hidden;
+      
        
     }
     .container-testimonials1{
@@ -989,6 +1128,7 @@ body{
   
     .container-testimonials h1{
         padding-top: 50px;
+       
     }
     .design1CT{
         width: 20%;
@@ -1003,6 +1143,7 @@ body{
         display: flex;
         flex-direction: column;
         padding:30px 20px 20px 20px;
+       
         
     }
     .container div{
@@ -1070,7 +1211,66 @@ body{
         padding: 0px 30px 30px 30px;
        
     }
-    
+
+    /* My skills */
+
+    .container-mySkills{
+        
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        
+    }
+    .container-mySkills0 h1{
+        overflow: hidden;
+        text-align: center;
+        padding: 50px 20px 20px 20px;
+    }
+    #design1-skills{
+        width: 20%;
+    }
+    #design2-skills{
+        width: 5%;
+    }
+    .container-mySkills1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-mySkills1 .images img{
+        width: 100%;
+        height: 90%;
+        padding-top: 30px;
+    }
+    .expert iconify-icon{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .basic iconify-icon{ 
+        padding-right: 10px;
+        padding-top: 10px;
+      
+    }
+    .others iconify-icon{
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    /* footer code */
+    .container-footer1{
+        width: 100%;
+        padding: 50px 20px 20px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-footer1 .ben{
+        display: flex;
+        text-align: center;
+    }
     
 }
 

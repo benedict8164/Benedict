@@ -173,7 +173,7 @@ navLinks4.forEach(link => {
 // Function to open the CV
 function viewCV() {
     // Replace 'cv.pdf' with the actual path or URL of your CV file
-    const cvUrl = './images/cv.pdf';
+    const cvUrl = './images/BenedictCV.pdf';
     window.open(cvUrl, '_blank');
   }
   

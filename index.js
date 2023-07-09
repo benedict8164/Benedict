@@ -173,10 +173,51 @@ navLinks4.forEach(link => {
 // Function to open the CV
 function viewCV() {
     // Replace 'cv.pdf' with the actual path or URL of your CV file
-    const cvUrl = './images/BenedictCV.pdf';
+    const cvUrl = './images/BenedictCV-II.pdf';
     window.open(cvUrl, '_blank');
   }
   
   // Add a click event listener to the button
   const cvButton = document.getElementById('cvButton');
   cvButton.addEventListener('click', viewCV);
+
+
+//   slider project
+
+// const slider = document.querySelector('.project');
+// const slides = slider.querySelector('.container-project');
+// const images = slider.querySelectorAll('img');
+
+// let currentSlide = 0;
+// const slideWidth = images[0].clientWidth;
+// const slideCount = images.length;
+
+// function goToSlide(slideIndex) {
+//   slides.style.transition = 'transform 0.5s ease-in-out';
+//   slides.style.transform = `translateX(-${slideWidth * slideIndex}px)`;
+//   currentSlide = slideIndex;
+// }
+
+// function nextSlide() {
+//   if (currentSlide === slideCount - 1) {
+//     setTimeout(() => {
+//       slides.style.transition = 'none';
+//       goToSlide(0);
+//     }, 500);
+//   } else {
+//     goToSlide(currentSlide + 1);
+//   }
+// }
+
+// function previousSlide() {
+//   if (currentSlide === 0) {
+//     setTimeout(() => {
+//       slides.style.transition = 'none';
+//       goToSlide(slideCount - 1);
+//     }, 500);
+//   } else {
+//     goToSlide(currentSlide - 1);
+//   }
+// }
+
+// setInterval(nextSlide, 3000); // Auto slide every 3 seconds

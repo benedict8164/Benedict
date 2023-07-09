@@ -414,6 +414,255 @@ body{
     padding-top: 10px;
 }
 
+/* My sample project */
+.project{
+    width: 100%;
+    height: 140vh;
+    overflow: hidden;
+    background-color: #f2e9e4;
+}
+.project h1{
+    padding-top:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #22223b;  
+}
+/* bar design */
+.bar-designCTP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+}
+.design1CTP{
+    display: flex; 
+    background-color: #22223b;
+    width: 8%;
+    height: 7px;
+    border-radius: 100px;
+}
+.design2CTP{
+     background-color: #c9ada7;
+     width: 2%;
+     height: 7px;
+     border-radius: 100px;
+     margin-left: 10px;
+}
+.container-project{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    justify-content: center;
+   
+  
+    
+}
+.container-project h2{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.container-project p{
+    padding-left: 10px;
+}
+.container-project .proj1{ 
+    width: 35%;
+    position: relative;
+    padding-bottom: 30px;
+}
+.image1{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    
+}
+.image2{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    
+}
+.image3{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    
+}
+.image4{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    
+}
+
+.proj1 .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 10px;
+    background-color:#22223b;
+    opacity: 90%;
+    overflow: hidden;
+    color:white;
+    width: 96%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 4%;
+}
+.proj1 .overlay .button{
+    margin-top: 50px;
+    margin-left: 50px; 
+}
+.proj1 .overlay .button .icon1{
+    font-size: 50px;
+    color: #f2e9e4;
+    transition: .5s ease;
+}
+.proj1 .overlay .button .icon1:hover{
+    color:#c9ada7;
+    font-size: 52px;
+
+}
+.proj1:hover .overlay{
+    height:254px;
+
+}
+
+
+.container-project .proj2{ 
+    width: 35%;
+    position: relative;
+   
+}
+.proj2 .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 10px;
+    background-color:#22223b;
+    opacity: 90%;
+    overflow: hidden;
+    color:white;
+    width: 96%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 4%;
+}
+.proj2 .overlay .button{
+    margin-top: 50px;
+    margin-left: 50px; 
+}
+.proj2 .overlay .button .icon1{
+    font-size: 50px;
+    color: #f2e9e4;
+    padding: 10px;
+    transition: .5s ease;
+}
+.proj2 .overlay .button .icon1:hover{
+    color:#c9ada7;
+    font-size: 52px;
+
+}
+.proj2:hover .overlay{
+    height:254px;
+
+}
+
+.container-project .proj3{ 
+    width: 35%;
+    position: relative;
+   
+}
+.proj3 .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 10px;
+    background-color:#22223b;
+    opacity: 90%;
+    overflow: hidden;
+    color:white;
+    width: 96%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 4%;
+}
+.proj3 .overlay .button{
+    margin-top: 50px;
+    margin-left: 50px; 
+}
+.proj3 .overlay .button .icon1{
+    font-size: 50px;
+    color: #f2e9e4;
+    padding: 10px;
+    transition: .5s ease;
+}
+.proj3 .overlay .button .icon1:hover{
+    color:#c9ada7;
+    font-size: 52px;
+
+}
+.proj3:hover .overlay{
+    height:254px;
+
+}
+
+.container-project .proj4{ 
+    width: 35%;
+    position: relative;
+   
+}
+.proj4 .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 10px;
+    background-color:#22223b;
+    opacity: 90%;
+    overflow: hidden;
+    color:white;
+    width: 96%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 4%;
+}
+.proj4 .overlay .button{
+    margin-top: 50px;
+    margin-left: 50px; 
+}
+.proj4 .overlay .button .icon1{
+    font-size: 50px;
+    color: #f2e9e4;
+    padding: 10px;
+    transition: .5s ease;
+}
+.proj4 .overlay .button .icon1:hover{
+    color:#c9ada7;
+    font-size: 52px;
+
+}
+.proj4:hover .overlay{
+    height:254px;
+
+}
+
+
 /* bar design about */
 
 #bar-design-about{
@@ -1060,6 +1309,104 @@ body{
     .more{
         margin-bottom: 30px;
     }
+    /* My sample project phone view */
+    .project{
+        width: 100%;
+        height: 165vh;
+        overflow: hidden;
+        background-color: #f2e9e4;
+    }
+
+    .bar-designCTP{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0px 0px 0px;
+    }
+    .design1CTP{
+        display: flex; 
+        background-color: #22223b;
+        width: 25%;
+        height: 7px;
+        border-radius: 100px;
+    }
+    .design2CTP{
+         background-color: #c9ada7;
+         width: 5%;
+         height: 7px;
+         border-radius: 100px;
+         margin-left: 10px;
+    }
+    .container-project{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container-project .proj1{ 
+        width: 93%;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    .image1{
+        display: block;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5%;
+    }
+    .container-project .proj2{ 
+        width: 93%;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    .image2{
+        display: block;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5%;
+    }
+    .container-project .proj3{ 
+        width: 93%;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    .image3{
+        display: block;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5%;
+    }
+    .container-project .proj4{ 
+        width: 93%;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    .image4{
+        display: block;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5%;
+    }
+    .proj1:hover .overlay{
+        height:180px;
+    
+    }
+    .proj2:hover .overlay{
+        height:180px;
+    
+    }
+    .proj3:hover .overlay{
+        height:180px;
+    
+    }
+    .proj4:hover .overlay{
+        height:180px;
+    
+    }
+
 
     /* this css code is for about */
 
